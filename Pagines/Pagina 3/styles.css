@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    text-align: left;
+}
+.header {
+    display: flex;
+    padding-left: 100px;
+    gap: 100px;
+    align-items: center;
+    max-width: max-content;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.header p {
+    max-width: 300px;
+    margin-top: 50px;
+    color: rgb(121, 119, 119);
+}
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}

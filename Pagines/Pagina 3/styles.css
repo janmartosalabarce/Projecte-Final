@@ -1,41 +1,42 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
     align-items: center;
+    text-align: left;
     justify-content: center;
-    text-align: left;
-}
-.container {
-    width: 80%;
-    max-width: 900px;
-    text-align: left;
+    display: flex;
 }
 
 .header {
     display: flex;
-    padding-left: 100px;
-    gap: 100px;
     align-items: center;
     max-width: max-content;
+    padding-left: 100px;
+    gap: 100px;
 }
 .header h1 {
-    font-size: 50px;
     font-weight: bold;
+    font-size: 50px;
     padding-right: 30px;
 }
 .header p {
-    max-width: 300px;
     margin-top: 50px;
-    color: rgb(83, 83, 83);
+    max-width: 300px;
+    color: rgb(95, 95, 95);
+}
+
+.container {
+    max-width: 900px;
+    width: 80%;
+    text-align: left;
 }
 
 .boton {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
-    padding: 10px 20px;
     border: none;
+    padding: 20px 30px;
+    margin-top: 20px;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .image-container img {
@@ -45,8 +46,8 @@ body {
 
 .image-container {
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     overflow: hidden;
+    justify-content: center;
 }

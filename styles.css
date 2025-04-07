@@ -20,12 +20,7 @@ body {
     text-decoration: none;
     color: black;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
     width: 250px;
-  }
-  
-  .prototype-card:hover {
-    transform: translateY(-5px);
   }
   
   .prototype-card img {

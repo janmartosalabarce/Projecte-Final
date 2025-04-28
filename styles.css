@@ -11,6 +11,11 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  .prototypes-container img{
+    width: 250px;
+    height: 200px;
+  }
   
   .prototype-card {
     background-color: white;
